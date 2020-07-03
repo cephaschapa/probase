@@ -1,0 +1,106 @@
+/* About Styling */
+/* Section about landing-section*/
+*{
+    scroll-behavior: smooth;
+    font-weight: 400;
+}
+.section-about-landing{
+    min-height: 70vh !important;
+    background:url("../img/women-at-the-meeting-3810796.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 100px ;
+}
+.section-about-landing nav{
+    border-radius: 30px !important;
+    background:#d35400 ;
+    font-size: 12px;
+}
+.section-about-landing nav a{
+    font-size: 12px;
+}
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+    bottom: 20px;
+    cursor: pointer;
+    top: 50%;
+}
+.section-about-landing h2{
+    color: #fff!important;
+    text-shadow: 0px 0px 1px black;
+}
+.section-ab-1{
+    padding-top: 60px;
+}
+
+.card-title{
+    color: #e67e22;
+    font-size: 18px !important;
+    border-bottom: 2px solid #bdc3c7;
+}
+.section-ab-1 .card{
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.section-ab-1 .card svg{
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    margin-bottom: -10px;
+}
+.section-ab-1 .card p{
+    color: #2c3e50 !important;
+}
+.section-article{
+    background:url('../img/photo-of-people-leaning-on-wooden-table-3183183.jpg') fixed no-repeat center;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    padding: 0px;
+}
+.overlay{
+    height: 400px;
+    width: 100%;
+    
+    position: absolute;
+    background-color: #2c3e50;
+    opacity: .8;
+}
+.profile-text{
+    font-weight: 300;
+    
+}
+.section-article .content{
+   
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    z-index: 2;
+}
+.section-article .btn{
+    border-radius: 30px;
+    background-color: #e67e22;
+}
+.section-wwd .collection-item{
+    color: #2c3e50;
+}
+.section-wwd .collection{
+    border-radius: 30px;
+}
+.section-wwhi{
+    background-color: #ecf0f1;
+}
+.section-wwhi .collection{
+    border-radius: 30px;
+    color: #2c3e50;
+}
+@media screen and (min-width: 601px){
+    .section-article .content{
+        position: relative;
+        margin-top: 50px !important;
+    }
+}
+
